@@ -1,0 +1,17 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking App</title>
+</head>
+<body>
+    <h1>Welcome to the Booking App</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
